@@ -1,0 +1,175 @@
+<html>
+    <style>
+
+      #inside-container{
+        align-content: center;
+        background-color: white;
+        width: 1020px;
+        height: 890px;
+      }
+      .glyphicon {
+       font-size: 25px;
+       padding: 30px;
+     }
+
+      h3{
+          /* margin-top: 140px; */
+          /* margin-left: 170px; */
+          font-size: 40px;
+
+      }
+      p{
+          /* margin-left: 170px; */
+          /* width: 1100px; */
+          /* text-align: center; */
+      }
+      .box{
+          /* top: 0;
+          background-color: white; 
+          height: 200px;
+          width: 230px;    */
+      }
+      .img-slideshow{
+      position: relative;
+      display: block;
+      width: 100%;
+      max-width: 1100px;
+      height: 450px;
+      margin: 0 auto;
+      }
+
+      .img-slideshow h2{
+      color: whitesmoke;
+      font-size: 50px;
+      margin-top: 300px;
+      margin-left: 50px;
+      }
+
+      .img-slideshow p{
+      font-size: larger;
+      font-size: 30px;
+      margin-left: 50px;
+      
+      color: whitesmoke;
+      }
+
+      .carousel-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      -webkit-animation: fade 14s infinite;
+      animation: fade 12s infinite;
+      }
+
+      #img1 {
+      animation-delay: 0s;
+      background-image: url('/Users/sid/Downloads/victoria1.jpeg');
+      }
+
+      #img2 {
+      background-image: url('/Users/sid/Downloads/teahub.io-kolkata-wallpaper-1853605.jpg');
+      animation-delay: 4s;
+      }
+
+      #img3 {
+      background-image: url('/Users/sid/Downloads/shawan-banerjee-xxEwXpmwb30-unsplash.jpg');
+      animation-delay: 8s;
+      }
+
+      @-webkit-keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    34% {
+      opacity: 0;
+    }
+    88% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    34% {
+      opacity: 0;
+    }
+    88% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+    </style>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+     
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+      
+      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+      
+    </head>
+    
+    <body style="background-color: pink;">
+       
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="places.html">Places to visit</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+
+    <div class="container-fluid border border-8 border-dark" id="inside-container">
+      <!-- <span class="glyphicon glyphicon-map-marker" style="width: 50px; height: 50px;"></span> -->
+      
+      <div class="img-slideshow">
+        <div class="carousel-container" id="img1"></div>
+        <div class="carousel-container" id="img2"></div>
+        <div class="carousel-container" id="img3"></div>
+      </div>
+      <br>
+      <br>
+      <div class="container-fluid">
+        <h3 style="display: inline;">Victoria Memorial ,Kolkata</h3>
+        <a href="https://www.google.com/maps/place/Victoria+Memorial/@22.5448082,88.3425578,15z/data=!4m2!3m1!1s0x0:0xb540e4bce39763?sa=X&hl=en-GB&ved=2ahUKEwj1mOK_x8L3AhXXpVYBHVbIDiIQ_BJ6BAhoEAU" style="display: inline; margin-left: 400px;"><i class="fas fa-map-marker fa-2x" style="width: 40px; height: 40px;"></i></a>
+        <a href="https://www.google.com/maps/search/Restaurants/@22.5450436,88.3423533,14z/data=!3m1!4b1!4m7!2m6!3m5!2sVictoria+Memorial!3s0x3a02771346ae015d:0xb540e4bce39763!4m2!1d88.3425578!2d22.5448082?hl=en-GB" style="display: inline; margin-left: 30px;"><i class="fas fa-home fa-2x" style="width: 40px; height: 40px;"></i></a>
+        <a href="https://www.google.com/maps/search/Hotels/@22.5448077,88.3425578,15z/data=!3m1!4b1!4m7!2m6!3m5!2sVictoria+Memorial!3s0x3a02771346ae015d:0xb540e4bce39763!4m2!1d88.3425578!2d22.5448082?hl=en-GB" style="display: inline; margin-left: 30px;"><i class="fas fa-bone fa-2x" style="width: 40px; height: 40px;"></i></a>
+      </div>  
+      <br>
+      <br>
+      <p style="font-size: 20px;">The Victoria Memorial is a large marble building in Central Kolkata, which was built between 1906 and 1921. It is dedicated to the memory of Queen Victoria, now a museum under the auspices of the Ministry of Culture, and is the largest monument in the world which is dedicated to a royal. The memorial lies on the Maidan and is one of the famous monuments of Kolkata.</p>
+    </div>  
+    </body>
+
+</html>

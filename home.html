@@ -1,0 +1,243 @@
+<html>
+
+  <head>
+    
+  </head>
+  <style> 
+  body{
+    margin: 0;
+    height: 1800px;
+/*     
+    background-color: pink; */
+    /* background-image: url(/Users/sid/Downloads/graybgwall.png); */
+  }
+  /* li{
+    padding: 12px;
+    display: inline;
+    width: 200px;
+    height: 200px;
+    
+} */
+.menu-bar{
+  height: 47px;
+  background-color: black;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  color: plum;
+}
+
+
+.img-main{
+    width: auto;
+    height: 600px;
+    background-color: pink;
+}
+
+#plc{
+  background-color: #111;
+
+}
+
+h1{
+  color: rgba(206, 129, 129, 0.704);
+  
+  text-align: center;
+}
+.img-slideshow{
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.img-slideshow h2{
+  color: whitesmoke;
+  font-size: 50px;
+  margin-top: 300px;
+  margin-left: 50px;
+}
+
+.img-slideshow p{
+  font-size: larger;
+  font-size: 30px;
+  margin-left: 50px;
+  
+  color: whitesmoke;
+}
+
+.carousel-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-animation: fade 14s infinite;
+  animation: fade 12s infinite;
+}
+
+#img1 {
+  animation-delay: 0s;
+  background-image: url('/Users/sid/Downloads/citofvaranasi.jpeg');
+}
+
+#img2 {
+  background-image: url('/Users/sid/Downloads/agonda2.jpeg');
+  animation-delay: 4s;
+}
+
+#img3 {
+  background-image: url('/Users/sid/Downloads/redFortNewdelhi.jpeg');
+  animation-delay: 8s;
+}
+
+.bottom-nav{
+  overflow: hidden;
+  background-color: rgba(24, 11, 11, 0.827);
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  
+}
+
+.bottom-nav p {
+  text-align: center;
+  font-size: medium;
+  color: whitesmoke;
+}
+
+.container-img1{
+  background-color: black;
+  margin-top: 20px;
+  height: 600px;
+  /* border-radius: 20px; */
+  width: auto;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 0;
+  }
+  88% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+  </style>
+
+    <body>
+    
+        <div class="menu-bar">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a id="plc" href="places.html">Places to Visit</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+          </ul>
+        </div>
+
+        <div class = "img-main">
+          <h1>
+            Scenary's
+          </h1> 
+
+        <div class="img-slideshow">
+        <div class="carousel-container" id="img1"><h2>Ganges River ,Varanasi</h2>
+          <p>Many Hindu works of literature have personified river Ganges as a Goddess of purity.</p>
+        </div>
+          <div class="carousel-container" id="img2"><h2>Agonda Beach ,GOA</h2>
+          <p>Agonda beach is in south Goa One can enjoy the clear waters and sunbath all day</p>
+          </div>
+          <div class="carousel-container" id="img3"><h2>Red Fort ,New Delhi</h2>
+          <p>Named for its massive enclosing walls of red sandstone.</p>
+          </div>
+        </div>
+          
+        <div class="bottom-nav">
+          <p>For Queries regarding Places : Contact Us | 990-099-1232</p>
+        </div>
+
+        <div class="container-img1">
+          <br>
+          <h1 class="heading-name" style="font-size: 40px; color: pink; text-align: left; margin-left: 150px;">Heal Your Inner Self</h1>
+          <div style="width: 47%; float: left; margin-top: 50px; margin-left: 40px;"> 
+            <h2 style="color: white; font-size: 30px; font-style: italic;">Travelling Should be about Cleansing Your Soul and refreshing Your mindset</h2>
+            <br>
+            <br>
+            <p style="color: rgb(54, 183, 106); font-size: 26px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellendus velit cupiditate quia! Fuga libero sapiente totam sit repellat dicta accusantium provident omnis iusto sunt. Id necessitatibus commodi vero inventore.</p>
+          </div>
+          <div style="z-index: 2;">
+            <img src="/Users/sid/Downloads/sage-friedman-HS5CLnQbCOc-unsplash.jpg" alt="" style="width: 700px; height: 400px; margin-bottom: 30px;">
+          </div>
+          </div>
+
+
+          <div class="container-img2" style="background-color: rgba(75, 29, 29, 0.871); ">
+            <br>
+            <h1 class="heading-name" style="font-size: 40px; color: pink; text-align: left; margin-left: 800px;">Explore Various locations</h1>
+            <div style="width: 47%; float: right; margin-top: 50px; margin-left: 40px;"> 
+              <h2 style="color: white; font-size: 30px; font-style: italic;">Exploring Places with friends or family to enrich your life</h2>
+              <br>
+              <br>
+              <p style="color: rgb(54, 183, 106); font-size: 26px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellendus velit cupiditate quia! Fuga libero sapiente totam sit repellat dicta accusantium provident omnis iusto sunt. Id necessitatibus commodi vero inventore.</p>
+            </div>
+            <div style="z-index: 2;">
+              <img src="/Users/sid/Downloads/natuer23.jpeg" alt="" style="width: 700px; height: 400px; margin-bottom: 30px;">
+            </div>
+            </div>
+   
+      </body>
+
+</html>

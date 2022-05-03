@@ -1,0 +1,178 @@
+<html>
+    <style>
+
+      .nav-item:hover{
+        color: cornflowerblue;
+      }
+      #inside-container{
+        align-content: center;
+        background-color: white;
+        width: 1020px;
+        height: auto;
+      }
+      .glyphicon {
+       font-size: 25px;
+       padding: 30px;
+     }
+
+      h3{
+          /* margin-top: 140px; */
+          /* margin-left: 170px; */
+          font-size: 40px;
+
+      }
+      p{
+          /* margin-left: 170px; */
+          /* width: 1100px; */
+          /* text-align: center; */
+      }
+      .box{
+          /* top: 0;
+          background-color: white; 
+          height: 200px;
+          width: 230px;    */
+      }
+      .img-slideshow{
+      position: relative;
+      display: block;
+      width: 100%;
+      max-width: 1100px;
+      height: 450px;
+      margin: 0 auto;
+      }
+
+      .img-slideshow h2{
+      color: whitesmoke;
+      font-size: 50px;
+      margin-top: 300px;
+      margin-left: 50px;
+      }
+
+      .img-slideshow p{
+      font-size: larger;
+      font-size: 30px;
+      margin-left: 50px;
+      
+      color: whitesmoke;
+      }
+
+      .carousel-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      -webkit-animation: fade 14s infinite;
+      animation: fade 12s infinite;
+      }
+
+      #img1 {
+      animation-delay: 0s;
+      background-image: url('/Users/sid/Downloads/redFortNewdelhi.jpeg');
+      }
+
+      #img2 {
+      background-image: url('/Users/sid/Downloads/redfort1.jpeg');
+      animation-delay: 4s;
+      }
+
+      #img3 {
+      background-image: url('/Users/sid/Downloads/3594155545_69aa70785a_h.jpg');
+      animation-delay: 8s;
+      }
+
+      @-webkit-keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    34% {
+      opacity: 0;
+    }
+    88% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    34% {
+      opacity: 0;
+    }
+    88% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+    </style>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+     
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+      
+      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+      
+    </head>
+    
+    <body style="background-color: pink;">
+       
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="places.html">Places to visit</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+
+    <div class="container-fluid border border-8 border-dark" id="inside-container">
+      <!-- <span class="glyphicon glyphicon-map-marker" style="width: 50px; height: 50px;"></span> -->
+      
+      <div class="img-slideshow">
+        <div class="carousel-container" id="img1"></div>
+        <div class="carousel-container" id="img2"></div>
+        <div class="carousel-container" id="img3"></div>
+      </div>
+      <br>
+      <br>
+      <div class="container-fluid">
+        <h3 style="display: inline;">Red Fort ,Delhi</h3>
+        <a href="https://www.google.com/maps/place/Red+Fort/@28.6561592,77.2410203,15z/data=!4m2!3m1!1s0x0:0x441e32f4fa5002fb?sa=X&ved=2ahUKEwj2nuCA6ML3AhU5gVYBHVUHCCIQ_BJ6BAh3EAU" style="display: inline; margin-left: 400px;"><i class="fas fa-map-marker fa-2x" style="width: 40px; height: 40px;"></i></a>
+        <a href="https://www.google.com/maps/search/Hotels/@28.6562334,77.2410203,15z/data=!3m1!4b1!4m7!2m6!3m5!2sRed+Fort!3s0x390cfce26ec085ef:0x441e32f4fa5002fb!4m2!1d77.2410203!2d28.6561592" style="display: inline; margin-left: 30px;"><i class="fas fa-home fa-2x" style="width: 40px; height: 40px;"></i></a>
+        <a href="https://www.google.com/maps/search/Restaurants/@28.6561963,77.2410203,15z/data=!3m1!4b1!4m7!2m6!3m5!2sRed+Fort!3s0x390cfce26ec085ef:0x441e32f4fa5002fb!4m2!1d77.2410203!2d28.6561592" style="display: inline; margin-left: 30px;"><i class="fas fa-bone fa-2x" style="width: 40px; height: 40px;"></i></a>
+      </div>  
+      <br>
+      <br>
+      <p style="font-size: 20px;">Red Fort, also called Lal Qalʿah, also spelled Lal Kila or Lal Qila, Mughal fort in Old Delhi, India. It was built by Shah Jahān in the mid-17th century and remains a major tourist attraction. The fort was designated a UNESCO World Heritage site in 2007. 
+        The fort’s massive red sandstone walls, which stand 75 feet (23 metres) high, enclose a complex of palaces and entertainment halls, projecting balconies, baths and indoor canals, and geometrical gardens, as well as an ornate mosque. Among the most famous structures of the complex are the Hall of Public Audience (Diwan-i-ʿAm), which has 60 red sandstone pillars supporting a flat roof, and the Hall of Private Audience (Diwan-i-Khas), which is smaller and has a pavilion of white marble.</p>
+    </div>  
+    </body>
+
+</html>
